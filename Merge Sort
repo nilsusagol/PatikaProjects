@@ -1,0 +1,17 @@
+[16,21,11,8,12,22] 
+
+SORU: Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Insertion Sort Aşamaları:
+[16,21,11,8,12,22]
+[16,21,11] ____ [8,12,22]
+[16,21] [11] ____ [8,12] [22]
+[16] [21] [11] ____ [8] [12] [22]
+[11,16,21] ____ [8,12,22]
+
+Merge Sort ile sıralanmış hali:
+[8,11,12,16,21,22]
+
+SORU: Dizinin Big-O gösterimini yazınız.
+
+Merge Sort, her zaman O(n log n) zaman karmaşıklığına sahiptir.
